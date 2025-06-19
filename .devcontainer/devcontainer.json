@@ -1,5 +1,5 @@
 {
-	"name": "jest-playwright-devcontainers",
+	"name": "playwright-dev-container-x11vnc",
 	"dockerFile": "Dockerfile",
 
 	// Set *default* container specific settings.json values on container create.
@@ -9,7 +9,7 @@
 
 	"mounts": [
 		// Keep command history 
-		"source=jest-playwright-devcontainers-bashhistory,target=/home/pwuser/commandhistory,type=volume",
+		"source=playwright-dev-container-x11vnc-bashhistory,target=/home/pwuser/commandhistory,type=volume",
 	],
 
 	// Add the IDs of extensions you want installed when the container is created.
